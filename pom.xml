@@ -19,9 +19,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.jnetpcap</groupId>
+			<groupId>jnetpcap</groupId>
 			<artifactId>jnetpcap</artifactId>
-			<version>1.4.1</version>
+			<version>1.4.r1425-1g</version>
 		</dependency>
 		
 		<dependency>
@@ -151,4 +151,10 @@
 		
 	</build>
 	
+	<repositories>
+		<repository>
+			<id>clojars</id>
+			<url>https://repo.clojars.org</url>
+		</repository>
+	</repositories>
 </project>
